@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    top: 30%;
+    background: rgb(214, 120, 136);
+    margin: 2rem auto;
+    width: 35rem;
+    height: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  .heading {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+  }
+  .sect-one {
+    width: 400px;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #searchCountry {
+    background-color: #97b798;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 34px;
+  }
+  .countryData {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  

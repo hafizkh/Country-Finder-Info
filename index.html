@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Country Name Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Country Finder API</h1>
+      <section class="sect-one">
+        <form action="">
+          <input
+            type="text"
+            name="countryName"
+            id="countryName"
+            placeholder="Write Country Name Here"
+          />
+          <input
+            onclick="countryData()"
+            id="searchCountry"
+            type="button"
+            value="Search"
+          />
+        </form>
+      </section>
+      <section class="sect-second">
+        <div class="countryData">
+          <div>
+            Name:
+            <h1 id="title"></h1>
+          </div>
+          <div>
+            Capital:
+            <h2 id="capital"></h2>
+          </div>
+          <div>
+            Population:
+            <h3 id="population"></h3>
+          </div>
+          <div>
+            Currency:
+            <h3 id="currencies"></h3>
+          </div>
+          <div>
+            Language:
+            <h3 id="language"></h3>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -5,6 +5,7 @@ const capital = document.getElementById("capital");
 const population = document.getElementById("population");
 const currencies = document.getElementById("currencies");
 const language = document.getElementById("language");
+const flag = document.getElementById("flag")
 
 // Adding Event Listener
 searchBtn.addEventListener("click", () => {
@@ -22,11 +23,13 @@ const countryData = async () => {
         const country = response[0];
         countryInfo(country);
         function countryInfo(response) {
+            flag.src = response.flags.png;
             title.innerHTML = response.name.official;
             capital.innerHTML = response.capital;
             population.innerHTML = response.population;
             currencies.innerHTML = Object.keys(response.currencies)[0];
             language.innerHTML = Object.keys(response.languages)[0];
+
         }
 
     } catch (error) {

@@ -1,8 +1,5 @@
 # Country-Finder-Info
 
-#### The URL of the project is :
-[Country Info](https://hafizkh.github.io/Country-Finder-Info/)
+## [🚀Live Project](https://urban-uniqueness.netlify.app/)
 
-#### To Look the information of the country using the API: 
-[Rest Countries API](https://restcountries.com/v3.1/name/)
-
+### [Rest Countries API](https://restcountries.com/v3.1/name/)
